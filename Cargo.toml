@@ -1,0 +1,12 @@
+[package]
+name = "rust-enet-csharp-sys"
+version = "0.1.0"
+authors = ["Adam <adambh@outlook.com>"]
+description = "Low level rust bindings to the enet C library's fork: https://github.com/nxrighthere/ENet-CSharp"
+links = "enet"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.35.0"
