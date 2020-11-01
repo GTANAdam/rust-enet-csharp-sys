@@ -1,6 +1,6 @@
 extern crate rust_enet_csharp_sys;
 
-use enet_csharp_sys::{enet_initialize, enet_deinitialize};
+use rust_enet_csharp_sys::{enet_initialize, enet_deinitialize};
 
 fn main() {
     println!("Starting test of enet bindings...");

@@ -1470,7 +1470,7 @@ extern "C" {
 			return;
 
 		if (packet->freeCallback != NULL)
-			(*packet->freeCallback)((void*)packet);
+			(*packet->freeCallback)(packet);
 
 		enet_free(packet);
 	}

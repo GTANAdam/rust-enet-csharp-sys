@@ -1,8 +1,8 @@
 extern crate rust_enet_csharp_sys;
 
-use enet_csharp_sys::{enet_initialize, enet_deinitialize};
-use enet_csharp_sys::{ENetAddress};
-use enet_csharp_sys::{enet_host_create, enet_host_destroy};
+use rust_enet_csharp_sys::{enet_initialize, enet_deinitialize};
+use rust_enet_csharp_sys::{ENetAddress};
+use rust_enet_csharp_sys::{enet_host_create, enet_host_destroy};
 
 fn main() {
     println!("Starting test of host creation...");
